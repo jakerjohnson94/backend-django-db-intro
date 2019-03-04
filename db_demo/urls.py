@@ -26,6 +26,4 @@ admin.site.register(Roles)
 admin.site.register(Tags)
 admin.site.register(Pages)
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
-]
+urlpatterns = [path("admin/", admin.site.urls)]
